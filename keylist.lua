@@ -9,13 +9,20 @@ return {
         valid = true,
         max_devices = 20,
         SLOT = "1"
-    },
+    }, 
     ["DEMO123"] = {
         type = "DEMO",
         expiry = "2026-08-01",
         valid = true,
         max_devices = 5,
         SLOT = "2"
+    },
+    ["testingkey"] = {
+        type = "any",
+        expiry = "2027-09-05",
+        valid = false, // block key 
+        max_devices = 4,
+        SLOT = "6"
     },
     ["SINGLE_USER"] = {
         type = "VIP",
@@ -31,4 +38,4 @@ return {
         max_devices = 1,
         SLOT = "0"
     }
-}
+} 
